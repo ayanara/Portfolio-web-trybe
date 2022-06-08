@@ -1,0 +1,28 @@
+h1 {
+    color: blue; 
+    width: 2em;
+}
+
+body{
+    background-color: rgb(255, 400, 200);
+    font-size: 20px;
+}
+
+#apresentacao-UX {
+    background-color: blue;
+}
+.list-style {
+    background-color: aqua; 
+    color: bisque;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: underline;
+
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif
+}
