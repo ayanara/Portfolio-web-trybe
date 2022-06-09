@@ -1,28 +1,170 @@
-h1 {
-    color: blue; 
-    width: 2em;
-}
+
 
 body{
-    background-color: rgb(255, 400, 200);
-    font-size: 20px;
+    background-color: #F4DBD8;
 }
 
-#apresentacao-UX {
-    background-color: blue;
+ h3 {
+     color: #655560;
 }
+    
+ img {
+    border-radius: 50%; 
+    display: block;
+    
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    right: 20%;
+    top: 135px;
+
+
+}
+
 .list-style {
-    background-color: aqua; 
+    
     color: bisque;
-    font-weight: bold;
-    font-style: italic;
-    line-height: 40px;
-    text-align: center;
-    text-decoration: underline;
-
-
 }
 
-p {
-    font-family: Arial, Helvetica, sans-serif
+a:link{
+ 
+     text-decoration: none;
+     color: #655560;
+}
+
+a:hover{
+    color: aliceblue;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 70px;
+
+    position: absolute;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+    
+}
+
+.cabecalho h2 {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #655560;
+    font-style: normal;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 154px;
+    height: 18px;
+
+
+/* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.eusou {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0%;
+    gap: 30.12px;
+
+    position: absolute;
+    width: 540.18px;
+    height: 248.41px;
+    left: 20%;
+    top: 244px;
+}
+
+.eusou h1 {
+    width: 427.72px;
+    height: 52px;
+    
+    color: white;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44.1781px;
+    line-height: 52px;
+
+    display: flex;
+    align-items: flex-end;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.eusou p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10.04px;
+
+    width: 410px;
+    height: 73px;
+
+    color: #655560;
+    font-style: italic;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.eusou button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:  21.085px 64.26px 21.085px 64.2591px;
+    gap: 10.04px;
+
+    width: 244.52px;
+    height: 63.17px;
+
+    background: #1B9AAA;
+    border: 1.00405px solid #006992;
+    box-shadow: 0px 8.03239px 202px rgba(0, 105, 146, 0.5);
+    border-radius: 4.01619px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    /* Fale comigo! */
+
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    display: flex;
+    
+
+    color: #FFFFFF;
+
 }
