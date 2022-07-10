@@ -2,6 +2,10 @@
 <html lang="pt-br">
     <head>
     <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device, initial-scale=1.0"> -->
+    <meta name="description" content="Portofio feito por Ayanara Nathane">
+    <title>Portfolio</title>
+
     <link rel="stylesheet" type="text/css" href="style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -10,34 +14,40 @@
     </head>
     <body>
 
-        <div class="cabecalho">
-            <h2>Sobre mim</h2>
-            <h2>Experiências</h2>
-            <h2>Estudo de casos</h2>
-            <h2>Formação acadêmica</h2>
-        </div>
+        <header class="cabecalho">
+            <nav class="cabecalho-menu">
+                <a class="cabecalho-menu-item">Sobre mim</a>
+                <a class="cabecalho-menu-item">Experiências</a>
+                <a class="cabecalho-menu-item">Estudo de Casos</a>
+                <a class="cabecalho-menu-item">Formação acadêmica</a>
+            </nav>
+        </header>
         
+        <main class="conteudo">
+            <section class="conteudo-principal">
+                <div class="conteudo-principal-sobre-mim">
+                    <h1 class="sobre-mim">Oi, eu sou Nathane</h1>
+                    <p class="sobre-mim-secundario">
+                        "Eu sou mil possíveis em mim; mas não posso me resignar a querer apenas um deles".
+                    </p>
+                    <p>
+                        <strong> Roger Bastide</strong>
+                    </p>
+                    <button class="button">Fale comigo!</button>
+                </div class="conteudo-lateral">
+                <img class="minha-foto" src="Imagens/AyanaraFundoamarelo.png" tar alt="Ayanara Nathane" width="400x">
+            </section>
 
-        <img src="Imagens/AyanaraFundoamarelo.png" tar alt="Ayanara Nathane" width="400x">
-        
-        <div class="eusou">
-            <h1>Oi, eu sou Nathane</h1>
-            
-            <p> "Eu sou mil possíveis em mim; mas não posso me resignar a querer apenas um deles". 
-                <strong> Roger Bastide</strong></p>
+        </main>
 
-            <button>Fale comigo!</button>
-
-        </div>
-
-        <!-- <h3>
-
-        <ul class="list-style">
-            <li><a href="https://www.linkedin.com/in/ayanara/" target="_blank">Linkedin</a></li>
-            <li><a href="https://github.com/ayanara" target="_blank">github</a></li>
-            <li><a href="https://aya-nathane.medium.com/" target="_blank">Medium</a></li>
-            <li><a href="https://www.behance.net/ayanaranathane" target="_blank">Behance</a></li>
-        </ul></h3> -->
+        <footer class="rodape" >
+        <ul class="lista-contato">
+            <li class="linkedin" ><a href="https://www.linkedin.com/in/ayanara/" target="_blank">Linkedin</a></li>
+            <li class="github" ><a href="https://github.com/ayanara" target="_blank">github</a></li>
+            <li class="medium" ><a href="https://aya-nathane.medium.com/" target="_blank">Medium</a></li>
+            <li class="behance" ><a href="https://www.behance.net/ayanaranathane" target="_blank">Behance</a></li>
+        </ul>
+        </footer>
 
 
     </body>
