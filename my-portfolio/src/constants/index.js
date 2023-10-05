@@ -26,11 +26,11 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Sobre",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Formação",
   },
   {
     id: "contact",
@@ -169,48 +169,6 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "Whether",
-    description:
-      "Projeto que recria o Weather App do youtuber programador AsmrProg. Intuido é revisar alguns conceitos de programação",
-    tags: [
-      {
-        name: "JavaScrip",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "HTML",
-        color: "green-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: weather,
-    source_code_link: "https://github.com/ayanara/Weather-App",
-  },
-  {
-    name: "Mapa Dev Week ",
-    description:
-      "Projeto feito na semana Mapa Dev Week. O evento tem como objetivo ensinar o básico de HTML, CSS e JavaScript em aula ao vivo e dinâmicas. Ao Fim do projeto, os participantes saem com um projeto pronto, um portofolio.",
-    tags: [
-      {
-        name: "JavaScrip",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "HTML",
-        color: "green-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: mapa_dev,
-    source_code_link: "https://github.com/ayanara/mapadev-week",
-  },
 
   {
     name: "project React 3D",
@@ -253,6 +211,48 @@ const projects = [
     ],
     image: memory_card,
     source_code_link: "https://github.com/ayanara/game-memory-card/",
+  },
+  {
+    name: "Whether",
+    description:
+      "Projeto que recria o Weather App do youtuber programador AsmrProg. Intuido é revisar alguns conceitos de programação",
+    tags: [
+      {
+        name: "JavaScrip",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: weather,
+    source_code_link: "https://github.com/ayanara/Weather-App",
+  },
+  {
+    name: "Mapa Dev Week ",
+    description:
+      "Projeto feito na semana Mapa Dev Week. O evento tem como objetivo ensinar o básico de HTML, CSS e JavaScript em aula ao vivo e dinâmicas. Ao Fim do projeto, os participantes saem com um projeto pronto, um portofolio.",
+    tags: [
+      {
+        name: "JavaScrip",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mapa_dev,
+    source_code_link: "https://github.com/ayanara/mapadev-week",
   },
 ];
 
