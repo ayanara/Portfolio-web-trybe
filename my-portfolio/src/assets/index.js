@@ -26,9 +26,10 @@ import starbucks from "./company/starbucks.png";
 import gama from "./company/gama.png";
 import trybe from './company/trybe.png';
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import project_3d from "./project_3d.png";
+import memory_card from "./memory_card.png";
+import weather from "./weather.png";
+import mapa_dev from './mapa_dev.png';
 
 export {
   logo,
@@ -56,7 +57,8 @@ export {
   starbucks,
   trybe,
   gama,
-  carrent,
-  jobit,
-  tripguide,
+  project_3d,
+  memory_card,
+  weather,
+  mapa_dev,
 };

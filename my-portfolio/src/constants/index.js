@@ -14,9 +14,10 @@ import {
   figma,
   docker,
   ufrn,
-  carrent,
-  jobit,
-  tripguide,
+  project_3d,
+  memory_card,
+  weather,
+  mapa_dev,
   threejs,
   trybe,
   gama,
@@ -169,9 +170,52 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Whether",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Projeto que recria o Weather App do youtuber programador AsmrProg. Intuido é revisar alguns conceitos de programação",
+    tags: [
+      {
+        name: "JavaScrip",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: weather,
+    source_code_link: "https://github.com/ayanara/Weather-App",
+  },
+  {
+    name: "Mapa Dev Week ",
+    description:
+      "Projeto feito na semana Mapa Dev Week. O evento tem como objetivo ensinar o básico de HTML, CSS e JavaScript em aula ao vivo e dinâmicas. Ao Fim do projeto, os participantes saem com um projeto pronto, um portofolio.",
+    tags: [
+      {
+        name: "JavaScrip",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mapa_dev,
+    source_code_link: "https://github.com/ayanara/mapadev-week",
+  },
+
+  {
+    name: "project React 3D",
+    description:
+      "Projeto de um site 3D com tecnologia IA usando React | 2023 Three JS",
     tags: [
       {
         name: "react",
@@ -186,50 +230,29 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: project_3d,
+    source_code_link: "https://github.com/ayanara/project_React_3D",
   },
   {
-    name: "Job IT",
+    name: "game memory card",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Jogo da memoria com JavaScript e HTML para iniciantes.",
     tags: [
       {
-        name: "react",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "HTML",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: memory_card,
+    source_code_link: "https://github.com/ayanara/game-memory-card/",
   },
 ];
 
