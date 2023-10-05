@@ -43,14 +43,14 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo1} alt='logo' style={{width: 50}} />
+          <img src={logo1} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Ayanara Nathane &nbsp;
-            <span className='sm:block hidden'> | Front End Developer | UX/UI Designer |</span>
+            Nathane &nbsp;
+            <span className='sm:block hidden'> | Front End Developer</span>
           </p>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className='list-none hidden sm:flex flex-row gap-20'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
