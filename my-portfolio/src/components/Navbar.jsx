@@ -30,8 +30,8 @@ const Navbar = () => {
     <nav
       className={`${
         styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-primary" : "bg-transparent"
+      } w-full flex items-center py-5 fixed top-0 z-20  ${
+        scrolled ? "bg-[#f8fafc] " : "bg-transparent"
       }`
     }
     >
@@ -44,20 +44,20 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo1} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-[#3d535f] text-[18px] font-bold cursor-pointer flex '>
-            Nathane &nbsp;
-            <span className='sm:block hidden'> | Front End Developer</span>
+          <img src={logo1} alt='logo' className='w-10 h-10 object-contain' />
+          <p className='text-[#9333ea] text-[18px] font-semibold cursor-pointer flex '>
+          &nbsp; Nathane &nbsp;
+            <span className='sm:block hidden'> |  &nbsp;Front End Developer</span>
           </p>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-20'>
+        <ul className='list-none hidden sm:flex flex-row gap-20 '>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
               className={`${
-                active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+                active === nav.title ? "text-[#e9d5ff]" : "text-[#9333ea]"
+              } hover:text-[#e9d5ff] text-[14px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
