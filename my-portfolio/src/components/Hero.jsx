@@ -21,7 +21,7 @@ const Hero = () => {
             Ayanara <span className='text-[#7c3aed]'>Nathane.</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-[#58585D]`}>
-            Sou <span className='text-[#7c3aed]'>Desenvolvedora Front End</span>, apaixonado por criar interfaces web<br className='sm:block hidden' />
+            Sou <span className='text-[#7c3aed]'>Desenvolvedora Front End</span>, apaixonada por criar interfaces web<br className='sm:block hidden' />
             que sejam bonitas, funcionais e acessíveis.
           </p>
           <img src={real_time}
