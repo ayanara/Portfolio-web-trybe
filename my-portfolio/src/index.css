@@ -11,9 +11,9 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   /* color-scheme: dark; */
-  
-  
+  /* background: #fdfdfd; */
 }
+
 
 
 .hash-span {
@@ -116,6 +116,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
 
 /* canvas- styles */
 .canvas-loader {
