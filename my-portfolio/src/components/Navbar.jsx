@@ -9,7 +9,8 @@ import logo1 from '../assets/logo/logo1.svg';
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
+  
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -28,14 +29,9 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${
-        styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20  ${
-        scrolled ? "bg-[#f8fafc] " : "bg-transparent"
-      }`
-    }
+      className='w-full flex items-center py-5 fixed top-0 z-20 bg-violet-600'
     >
-      <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
+      <div className='w-full flex justify-between items-center max-w-7xl mx-auto '>
         <Link
           to='/'
           className='flex items-center gap-2'
@@ -45,9 +41,8 @@ const Navbar = () => {
           }}
         >
           <img src={logo1} alt='logo' className='w-10 h-10 object-contain' />
-          <p className='text-[#9333ea] text-[18px] font-semibold cursor-pointer flex '>
-          &nbsp; Nathane &nbsp;
-            <span className='sm:block hidden'> |  &nbsp;Front End Developer</span>
+          <p className='text-[#faf5ff] text-[18px] font-serif cursor-pointer flex '>
+            <span className='sm:block hidden'> &nbsp; Nathane &nbsp;| &nbsp;Front End Developer</span>
           </p>
         </Link>
 
@@ -56,8 +51,8 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`${
-                active === nav.title ? "text-[#e9d5ff]" : "text-[#9333ea]"
-              } hover:text-[#e9d5ff] text-[14px] font-medium cursor-pointer`}
+                active === nav.title ? "text-[#faf5ff]" : "text-[#faf5ff]"
+              } hover:text-[#e9d5ff] text-[14px] font-serif cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
