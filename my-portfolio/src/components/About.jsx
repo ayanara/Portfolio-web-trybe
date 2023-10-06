@@ -50,7 +50,7 @@ const About = () => {
         Sou uma pessoa apaixonada por tecnologia e livros.
         Recentemente me formei em Desenvolvimento Web, com foco em Front-End.
         Possuo conhecimento em TypeScript e JavaScript  e expertise em frameworks
-        como React, e Three.js. E tenho Habilidades com Ux e Ui Design.
+        como React e Three.js. E tenho Habilidades com Ux e Ui Design.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
