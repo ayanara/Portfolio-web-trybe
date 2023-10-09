@@ -7,11 +7,11 @@ import { technologies } from '../constants';
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from '../utils/motion'
 
-const TechnologiesCard  = ({ index, name, icon }) => (
-  <Tilt className='xs:w-[250px] w-full'>
+const TechnologiesCard = ({ index, name, icon }) => (
+  <Tilt className='xs:w-[250px]'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full violet-gradient  rounded-[15px] shadow-2xl'
+      className='rounded-[15px] border-solid border-2 border-[#7c3aed]'
     >
       <div
         options={{
@@ -19,7 +19,7 @@ const TechnologiesCard  = ({ index, name, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className='bg-gradient-to-r from-indigo-500 rounded-[20px] py-10 px-12 min-h-[250px] flex justify-evenly items-center flex-col'
+        className='px-12 min-h-[200px] flex justify-evenly items-center flex-col'
       >
         <img
           src={icon}

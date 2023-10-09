@@ -10,6 +10,7 @@ import {
   reactjs,
   tailwind,
   mongodb,
+  mysql,
   git,
   figma,
   docker,
@@ -29,6 +30,10 @@ export const navLinks = [
     title: "Sobre",
   },
   {
+    id: "experience",
+    title: "Projetos",
+  },
+  {
     id: "work",
     title: "Formação",
   },
@@ -36,6 +41,7 @@ export const navLinks = [
     id: "contact",
     title: "Contato",
   },
+
 ];
 
 const services = [
@@ -100,9 +106,14 @@ const technologies = [
     icon: mongodb,
   },
   {
+    name: "MySql",
+    icon: mysql,
+  },
+  {
     name: "docker",
     icon: docker,
   },
+
 ];
 
 const experiences = [
@@ -110,7 +121,7 @@ const experiences = [
     title: "Desenvolvimento Web",
     company_name: "Trybe",
     icon: trybe,
-    iconBg: "#71717a",
+    iconBg: "#1d1836",
     date: "Abril 2022 - junho 2023",
     points: [
       "A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso em tecnologia e que se compromete integralmente com seus estudantes, pois as pessoas só pagam quando conseguirem um bom trabalho.",
@@ -123,7 +134,7 @@ const experiences = [
     title: "Bootcamp Desenvolvimento Web Full Stack",
     company_name: "Gama Academy",
     icon: gama,
-    iconBg: "#71717a",
+    iconBg: "#1d1836",
     date: "Out 2021 - Dez 2021",
     points: [
       "Bootcamp intensivo de 12 semanas que capacita desenvolvedores full stack. O curso abrange as principais tecnologias e frameworks para desenvolvimento web e mobile. Para finalizar, os alunos desenvolvem uma aplicação de banco em Java com AWS.",
@@ -133,7 +144,7 @@ const experiences = [
     title: "Licenciatura em Ciências Sociais",
     company_name: "Universidade Federal do Rio Grande do Norte",
     icon: ufrn,
-    iconBg: "##71717a",
+    iconBg: "#1d1836",
     date: "Jan 2011 - Jan 2015",
     points: [
       "O curso de Ciências Sociais aborda temas como antropologia, sociologia, política, cultura e educação. Na grade curricular são trabalhados temas que estudam a sociedade e as relações humanas, fornecendo uma visão ampla do mundo.",
