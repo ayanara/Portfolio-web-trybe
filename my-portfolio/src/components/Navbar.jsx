@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { menu, close } from "../assets";
-import logo1 from '../assets/logo/logo1.svg';
 
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   
 
 
@@ -29,7 +29,11 @@ const Navbar = () => {
 
   return (
     <nav
-      className='w-full flex items-center py-5 fixed top-0 z-20 bg-violet-600'
+      className={`${
+        styles.paddingX
+      } w-full flex items-center py-5 fixed top-0 z-20 ${
+        scrolled ? "bg-primary" : "bg-transparent"
+      }`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto '>
         <Link
@@ -40,9 +44,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo1} alt='logo' className='w-10 h-10 object-contain' />
-          <p className='text-[#faf5ff] text-[18px] font-serif cursor-pointer flex '>
-            <span className='sm:block hidden'> &nbsp; Nathane &nbsp;| &nbsp;Front End Developer</span>
+          <div className='w-6 h-6 rounded-full bg-[#7c3aed]' />
+          <p className='text-[#faf5ff] text-[16px] font-serif cursor-pointer flex '>
+            <span className='sm:block hidden'> &nbsp; Ayanara Nathane &nbsp;| &nbsp;Front End Developer</span>
           </p>
         </Link>
 

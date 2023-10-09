@@ -1,33 +1,61 @@
 import { motion } from 'framer-motion';
 
-import { styles } from '../styles';
 
-import real_time from '../../public/desktop_pc/real_time.png';
+import { styles } from '../styles';
 
 const Hero = () => {
   return (
-    <section className='relative w-full h-screen mx-auto bg-[#fdfdfd]'>
-      <div className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto 
-      ${styles.paddingX} flex flex-row items-start gap-10`}>
-        <div className='flex flex-col justify-center items-center mt-1'>
-          <div className='w-5 h-5 rounded-full bg-[#7c3aed]' />
-          <div className='w-1 sm:h-80 h-40 violet-gradient' />
+    <section className='relative h-screen  flex justify-center'>
+      <div className={`absolute top-[280px] ${styles.paddingX}`}>
+        <div className='flex flex-col justify-center items-center mt-2'>
+          {/* <div className='w-5 h-5 rounded-full bg-[#7c3aed]' />
+          <div className='w-1 sm:h-80 h-40 violet-gradient' /> */}
         </div>
         <div>
-          <h1 className={`${styles.heroSubText} text-[#58585D]`}>
-            Olá! Eu sou
+          <h1 className={`${styles.heroHeadText} text-white text-center`}>
+            Olá! Eu sou  <span className='text-[#7c3aed]'> Ayanara Nathane.</span>
           </h1>
-          <h1 className={`${styles.heroHeadText} text-[#58585D]`}>
-            Ayanara <span className='text-[#7c3aed]'>Nathane.</span>
-          </h1>
-          <p className={`${styles.heroSubText} mt-2 text-[#58585D]`}>
-            Sou <span className='text-[#7c3aed]'>Desenvolvedora Front End</span>, apaixonada por criar interfaces web<br className='sm:block hidden' />
-            que sejam bonitas, funcionais e acessíveis.
+          <h1 className={`text-center mt-10  ${styles.heroSubText2} text-white `} >Desenvolvedora Front End</h1>
+          <p className={`mt-10 text-center text-white ${styles.heroSubText}`}>
+            Sou uma pessoa apaixonada por tecnologia e livros. Recentemente me formei em Desenvolvimento Web,
+            <  br /> com foco em <span className='text-[#7c3aed]'>Front End</span>. Possuo conhecimento em TypeScript, JavaScript e expertise em
+            <  br />frameworks como React e Three.js. E tenho Habilidades com <span className='text-[#7c3aed]'>Ux e Ui Design</span>
+            <  br />Adoro criar interfaces web que sejam bonitas, funcionais e acessíveis.
           </p>
-          <img src={real_time}
-            alt='Real time Sync'
-            width='700px'
-          />
+
+          <div className='flex justify-center items-center mt-20'>
+            <a href='https://www.linkedin.com/in/ayanara/'
+              target='_blank'
+              rel="noreferrer"
+              className=' mx-2'
+            >
+              <box-icon type="logo" name="linkedin" color="white"></box-icon>
+            </a>
+
+            <a href='https://github.com/ayanara'
+              target='_blank'
+              rel="noreferrer"
+              className=' mx-2'
+            >
+              <box-icon type="logo" name="github" color="white"></box-icon>
+            </a>
+
+            <a href='https://aya-nathane.medium.com/'
+              target='_blank'
+              rel="noreferrer"
+              className=' mx-2'
+            >
+              <box-icon type="logo" name="medium" color="white"></box-icon>
+            </a>
+
+            <a href='https://www.behance.net/ayanaranathane/'
+              target='_blank'
+              rel="noreferrer"
+              className=' mx-2'
+            >
+              <box-icon type="logo" name="behance" color="white"></box-icon>
+            </a>
+          </div>
         </div>
       </div>
     </section>
