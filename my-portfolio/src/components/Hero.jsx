@@ -5,7 +5,7 @@ import { styles } from '../styles';
 
 const Hero = () => {
   return (
-    <section className='relative h-screen  flex justify-center'>
+    <section className='relative h-screen  flex justify-center '>
       <div className={`absolute top-[280px] ${styles.paddingX}`}>
         <div className='flex flex-col justify-center items-center mt-2'>
           {/* <div className='w-5 h-5 rounded-full bg-[#7c3aed]' />
@@ -20,7 +20,7 @@ const Hero = () => {
             Sou uma pessoa apaixonada por tecnologia e livros. Recentemente me formei em Desenvolvimento Web,
             <  br /> com foco em <span className='text-[#7c3aed]'>Front End</span>. Possuo conhecimento em TypeScript, JavaScript e expertise em
             <  br />frameworks como React e Three.js. E tenho Habilidades com <span className='text-[#7c3aed]'>Ux e Ui Design</span>
-            <  br />Adoro criar interfaces web que sejam bonitas, funcionais e acessíveis.
+            <  br />Crio interfaces que são intuitivas, inclusivas e esteticamente agradáveis, e sempre tenho como foco principal a  <span className='text-[#7c3aed]'>Usabilidade</span> .
           </p>
 
           <div className='flex justify-center items-center mt-20'>
