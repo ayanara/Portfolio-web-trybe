@@ -38,7 +38,7 @@ const TechnologiesCard = ({ index, name, icon }) => (
 
 const About = () => {
   return (
-    <>
+    <div className='pt-20'>
       <motion.div variants={textVariant}>
         <p className={styles.heroSubText}>Sobre</p>
         <h2 className={styles.heroHeadText}>Overview</h2>
@@ -58,7 +58,7 @@ const About = () => {
           <TechnologiesCard key={technologies.title} index={index} {...technologies} />
         ))}
       </div>
-    </>
+    </div>
   )
 }
 
