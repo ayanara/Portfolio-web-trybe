@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div> <div className='flex justify-center items-center mt-20'>
+    <div> <div className='flex justify-center items-center  pt-20 pb-20'>
     <a href='https://www.linkedin.com/in/ayanara/'
       target='_blank'
       rel="noreferrer"
