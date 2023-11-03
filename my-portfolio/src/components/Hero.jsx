@@ -6,7 +6,7 @@ import { styles } from '../styles';
 const Hero = () => {
   return (
     <section className='relative h-screen  flex justify-center '>
-      <div className={`absolute top-[280px] ${styles.paddingX}`}>
+      <div className={` ${styles.paddingX}`}>
         <div className='flex flex-col justify-center items-center mt-2'>
           {/* <div className='w-5 h-5 rounded-full bg-[#7c3aed]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient' /> */}
@@ -15,7 +15,9 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white text-center`}>
             Olá! Eu sou  <span className='text-[#7c3aed]'> Ayanara Nathane.</span>
           </h1>
-          <h1 className={`text-center mt-10  ${styles.heroSubText2} text-white `} >Desenvolvedora Front End</h1>
+          <h1 className={`${styles.heroSubText} text-white text-center mt-10`}>
+            Desenvolvedora Front End
+          </h1>
           <p className={`mt-10 text-center text-white ${styles.heroSubText}`}>
             Sou uma pessoa apaixonada por tecnologia e livros. Recentemente me formei em Desenvolvimento Web,
             <  br /> com foco em <span className='text-[#7c3aed]'>Front End</span>. Possuo conhecimento em TypeScript, JavaScript e expertise em
